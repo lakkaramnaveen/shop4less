@@ -12,9 +12,8 @@ import { DeleteProductComponent } from './delete-product/delete-product.componen
 import { UpdateProductComponent } from './update-product/update-product.component';
 
 const routes: Routes = [
-  { path: '', component: ProductsComponent },
+  { path: '', component: ViewAllProductsComponent },
   { path: 'create-product', component: CreateProductComponent },
-  { path: 'list-products', component: ViewAllProductsComponent },
   { path: 'search', component: ViewAllProductsByCategoryComponent },
   { path: 'search-date', component: ViewAllProductsByDateComponent },
   { path: 'delete-product/:id', component: DeleteProductComponent },
