@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ProductsComponent } from './products.component';
 import { CreateProductComponent } from './create-product/create-product.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ViewProductComponent } from './view-product/view-product.component';
