@@ -14,10 +14,10 @@ import { UpdateProductComponent } from './update-product/update-product.componen
 const routes: Routes = [
   { path: '', component: ViewAllProductsComponent },
   { path: 'create-product', component: CreateProductComponent },
-  { path: 'search', component: ViewAllProductsByCategoryComponent },
+  { path: 'category/:id', component: ViewAllProductsByCategoryComponent },
   { path: 'search-date', component: ViewAllProductsByDateComponent },
   { path: 'delete-product/:id', component: DeleteProductComponent },
-  { path: 'view-product/:id', component: ViewProductComponent },
+  { path: 'product/:id', component: ViewProductComponent },
   { path: 'update-product/:id', component: UpdateProductComponent },
   { path: '**', component: PageNotFoundComponent },
 ];

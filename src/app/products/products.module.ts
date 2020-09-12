@@ -11,6 +11,7 @@ import { DeleteProductComponent } from './delete-product/delete-product.componen
 import { ViewAllProductsByDateComponent } from './view-all-products-by-date/view-all-products-by-date.component';
 import { ViewAllProductsByCategoryComponent } from './view-all-products-by-category/view-all-products-by-category.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ViewAllProductsByCategoryComponent, PageNotFoundComponent],
   imports: [
     CommonModule,
-    ProductsRoutingModule
+    ProductsRoutingModule,
+    FormsModule
   ]
 })
 export class ProductsModule { }
